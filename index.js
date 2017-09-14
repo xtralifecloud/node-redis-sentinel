@@ -60,7 +60,7 @@ Sentinel.prototype.createClientInternal = function(masterName, opts) {
 
 
     var netClient = new net.Socket();
-    var client = new redis.RedisClient(netClient, opts);
+    var client = new redis.RedisClient(opts, netClient);
     this.clients.push(client);
 
     var self = this;
