@@ -14,12 +14,14 @@
     "redis"
   ],
   "dependencies": {
-    "redis": "0.12.x",
     "when": "^3.5.1"
   },
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "peerDependencies": {
+    "redis": "*",
   },
   "author": "Ortoo Technologies",
   "license": "MIT",
