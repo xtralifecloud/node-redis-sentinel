@@ -21,7 +21,7 @@
     "chai": "*"
   },
   "peerDependencies": {
-    "redis": "*",
+    "redis": "*"
   },
   "author": "Ortoo Technologies",
   "license": "MIT",
